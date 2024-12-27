@@ -62,7 +62,7 @@ Name = "app_server-2"
 }
 
 resource "aws_security_group" "five" {
-name = "elb-sg"
+name = "elb-sg1"
 ingress {
 from_port = 22
 to_port = 22
